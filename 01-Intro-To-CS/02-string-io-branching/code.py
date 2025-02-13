@@ -74,7 +74,10 @@ c = "musketeers"
 #     run run run run run
 
 # your code here
-
+# verb = input("Enter a verb: ")
+#
+# print("I can", verb, "better than you!")
+#print((verb + " ") * 4 + verb)
 
 #########################################
 
@@ -114,6 +117,10 @@ c = "musketeers"
 
 # your code here
 
+# secret = 7
+# guess = int(input("Guess secret number (0-9): "))
+#
+# print(f"Your guess is {guess == secret}!!")
 
 #########################################
 
@@ -137,7 +144,7 @@ c = "musketeers"
 # y = int(input("Enter a different number for y: "))
 # if x == y:
 #     print(x,"is the same as",y)
-# print("These are equal!")
+#     print("These are equal!")
 
 #########################################
 
@@ -180,6 +187,16 @@ c = "musketeers"
 # * Prints whether the guess is too low, too high, or the same as the secret.
 
 # your code here
+
+secret = 10
+guess = int(input("Guess number: "))
+
+if guess == secret:
+    print("same as secret")
+elif guess > secret:
+    print("guess too high")
+else:
+    print("guess too low")
 
 #############################################
 
