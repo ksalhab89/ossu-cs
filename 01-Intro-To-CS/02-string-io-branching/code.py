@@ -270,7 +270,7 @@ s[2::-1]
 # your code here
 # verb = input("Type in a verb: ")
 # print("I can", verb, "better than you!")
-# print((verb+" ")*4+verb)
+# print((verb + " ") * 4 + verb)
 
 
 # You Try It 2: Write a program that:
