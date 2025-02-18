@@ -19,6 +19,35 @@
 # for i in range(5):
 # your code here
 
+# counter = 0
+# for i in range(5):
+#     if i % 2 == 0:
+#         counter += 1
+# print(f"{counter} ---// ")
+#
+# counter = 0
+# for i in range(10):
+#     if i % 2 == 0:
+#         counter += 1
+# print(f"{counter} ---// ")
+#
+# counter = 0
+# for i in range(2, 9, 3):
+#     if i % 2 == 0:
+#         counter += 1
+# print(f"{counter} ---// ")
+#
+# counter = 0
+# for i in range(-4, 6, 2):
+#     if i % 2 == 0:
+#         counter += 1
+# print(f"{counter} ---// ")
+#
+# counter = 0
+# for i in range(5, 6):
+#     if i % 2 == 0:
+#         counter += 1
+# print(f"{counter} ---// ")
 
 #############################################
 
@@ -74,6 +103,12 @@
 
 # your code here
 s = 'abca'
+#
+# seen = ''
+# for char in s:
+#     if char not in seen:
+#         seen += char
+# print(len(seen))
 
 ##############################################
 
@@ -116,7 +151,10 @@ s = 'abca'
 # secret value. If it's not found, it doesn't print anything.
 
 # your code here
-secret = 4
+# secret = 4
+# for i in range(1,11):
+#     if i == secret:
+#         print("i found the secret number ", secret)
 
 ################################################
 
@@ -128,6 +166,15 @@ secret = 4
 
 # your code here
 secret = 4
+# found = False
+# for i in range(1, 11):
+#     if i == secret:
+#         found = True
+#         break
+# if not found:
+#     print("i didn't find it")
+# else:
+#     print("i found the secret number ", secret)
 
 ####################################################
 
